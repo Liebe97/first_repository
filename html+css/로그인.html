@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel = 'stylesheet' href="로그인style.css">
+</style>
+
+<body>
+    <div class="cont">
+        <div class="login">
+            <form name="login" method="POST">
+                <label for="ol_id" id="ol_idlabel">회원아이디</label>
+                <input type='text' name='user_id' placeholder='아이디'>
+                <label for="ol_pw" id="ol_pwlabel">비밀번호</label>
+                <input type='password' name='user_pw' placeholder='비밀번호'>
+                <button name='전송' type='submit'>확인</button>
+            </form>
+        </div>
+        <div>
+            <select name='interest'>
+                <option value='축구'>축구</option>
+                <option value='독서'>독서</option>
+                <option value='코딩'>코딩</option>
+            </select>
+        </div>
+        <div>
+            <textarea name='자기소개' cols='50' rows='20'>내용을 입력하세요</textarea>
+        </div>
+    </div>
+</body>
+</html>
